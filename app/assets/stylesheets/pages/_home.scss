@@ -1,1 +1,51 @@
 // Specific CSS for your home-page
+
+div.nutshell {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+div.presentation {
+	div.volet-picture {
+	margin-top: 20px;
+		img {
+	   	 	vertical-align: middle;
+	    	margin: 0 auto;
+	    	Border: $middle-gray 2px solid;
+	    }
+	}
+	div.adrien-bio {
+		margin-left: 25px;
+	}
+}
+
+div.int {
+	div.int-title{
+		font-size: 16px;
+		text-align: center;
+	}
+	div.int-logo {
+		height: 57px;
+		width: 57px;
+		margin: 0 auto;
+	}
+}
+
+div.lined-middle-gray-1 {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+h2.integrate {
+	margin-bottom: 50px;
+}
+
+div.background-stuff {
+	h1.stuff {
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	btn {
+		margin-top: 50px;
+	}
+}
