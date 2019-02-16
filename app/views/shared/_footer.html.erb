@@ -1,16 +1,22 @@
 <div class="container footer lined-middle-gray text-center">
   <div class="row">
-    <div class="col-md-offset-3 col-md-1 col-xs-12">
-       <%= link_to "https://www.linkedin.com/in/incubateur-avocatsbe/", target: "_blank" do %>
-         <i class="fa fa-linkedin"></i>
+    <div class="col-md-offset-2 col-md-1 col-xs-12">
+       <%= link_to "https://www.linkedin.com/in/adrienvandenbranden/", target: "_blank" do %>
+         <%= image_tag "linkedinbtn.png", size: "35",class: "img-responsive img-rounded" %>
+       <% end %>   
+    </div>
+    <div class="col-md-1 col-xs-12">
+       <%= link_to "https://github.com/avdbranden", target: "_blank" do %>
+         <%= image_tag "github.png", size: "35",class: "img-responsive img-rounded" %>
        <% end %>  
     </div>
-        <div class="col-md-1 col-xs-12">
-       <%= link_to "https://www.facebook.com/Incubateur-dAvocatsbe-189964105108481/", target: "_blank" do %>
-         <i class="fa fa-facebook facebook-logo"></i>
-       <% end %>  
+    <div class="col-md-1 col-xs-12">
+      <!-- Meetup --> 
     </div>
-    <div class="col-md-3 col-xs-12"> 
+    <div class="col-md-1 col-xs-12">
+       <!-- Medium --> 
+    </div>
+    <div class="col-md-4 col-xs-12"> 
         <h4 class="col-xs-12 footer-copyright">Law For Tech © <%= Date.today.year %></h4> 
     </div>
   </div>
