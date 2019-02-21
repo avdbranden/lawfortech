@@ -1,0 +1,39 @@
+div.dpo-offer {
+	margin-top: 30px;
+	h3.card-pain {
+		border: solid 1px red;
+		border-radius: 5px;
+		background-color: $red;
+		color: white;
+		font-size: 35px;
+		padding: 14px;
+		font-weight: 800;
+		margin-bottom: 40px;
+	}
+	h3.card-solution {
+		border: solid 1px blue;
+		border-radius: 5px;
+		background-color: $blue;
+		color: white;
+		font-size: 35px;
+		padding: 14px;
+		font-weight: 800;
+	}
+}
+
+div.pricing {
+	border: solid 2px $middle-gray;
+	border-radius: 5px;
+	margin-left: 125px;
+	margin-right: 125px;
+	background-color: floralwhite;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	h3 {
+		font-size: 40px;
+		font-weight: 900;
+	}
+	div.btn-get-started {
+		margin-bottom: 25px;
+	}
+}
