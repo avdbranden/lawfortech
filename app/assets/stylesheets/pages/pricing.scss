@@ -1,20 +1,28 @@
 div.pricing-title {
 	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+div.pricing-context {
+	margin-top: 50px;
+}
+
+div.pricing-table {
 	margin-bottom: 60px;
-}
-
-table {
 	margin-top: 60px;
-	.table-pricing-header {
-		background-color: $dark-gray;
-		color: white;
-		font-size: 22px;
-	}
+	table {
+		.table-pricing-header {
+			background-color: $dark-gray;
+			color: white;
+			font-size: 22px;
+		}
 
-	.table-pricing-body {
-		background-color: white;
+		.table-pricing-body {
+			background-color: white;
+		}
 	}
 }
+
 
 div.pricing-end {
 	margin-top: 60px;
