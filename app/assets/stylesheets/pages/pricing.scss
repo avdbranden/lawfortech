@@ -10,18 +10,26 @@ div.pricing-context {
 div.pricing-table {
 	margin-bottom: 60px;
 	margin-top: 60px;
-	table {
-		.table-pricing-header {
-			background-color: $dark-gray;
-			color: white;
-			font-size: 22px;
-		}
+}
 
-		.table-pricing-body {
-			background-color: white;
-		}
+table {
+	.table-pricing-header {
+		background-color: $dark-gray;
+		color: white;
+		font-size: 22px;
+	}
+	.table-pricing-body {
+		background-color: white;
 	}
 }
+
+.table-rate {
+	margin-top: 25px;
+	margin-bottom: 35px;
+	th {
+		text-align: center;
+	}
+}	
 
 
 div.pricing-end {
