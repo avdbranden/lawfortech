@@ -19,9 +19,9 @@ div.dpo-offer {
 		display: flex;
     	justify-content: center;
     	h3.card-solution {
-	    	border: solid 1px blue;
+	    	border: solid 1px green;
 	    	border-radius: 5px;
-	    	background-color: $blue;
+	    	background-color: $green;
 	    	color: white;
 	    	font-size: 35px;
 	    	padding: 14px;
@@ -40,4 +40,21 @@ div.pricing {
 
 div.card-pricing {
 	margin-bottom: 70px;
+	h3 {
+	margin-top: 40px;
+	font-weight: 800;
+	font-size: 35px;
+	span {
+		font-size: 20px;
+		    font-weight: 200;
+		}
+	}
+	p {
+	margin-bottom: 30px;
+	font-size: 20px;
+	span {
+		font-size: 15px;
+		font-weight: 200;
+		}
+	}
 }
