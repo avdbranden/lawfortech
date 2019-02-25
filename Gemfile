@@ -12,6 +12,7 @@ gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-sass', '~> 5.5.0'
 gem 'sassc-rails'
+gem 'jquery-rails' # Added to make the toogle navbar work
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
