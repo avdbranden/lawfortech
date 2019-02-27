@@ -18,6 +18,9 @@ table {
 		b {
 			font-size: 22px;
 			font-family: $headers-font;
+			&.free {
+				color: $blue;
+			}
 		}
 	}
 }
