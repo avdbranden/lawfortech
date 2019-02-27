@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("wanderer.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("started.jpg");
   background-size: cover;
   background-position: center;
   h1 {
@@ -46,15 +46,19 @@
     color: white;
     opacity: .8;
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-top: 30px;
     margin-bottom: 40px;
+    a {
+    color: $yellow;
+
+    }
   }
   .btn-hire-me {
     margin-top: 100px;
   }
   a {
-  color: white;
+  color: bolder;
   }
 }
 
