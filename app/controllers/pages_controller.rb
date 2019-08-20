@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def dpo
   end
 
+  def pricing
+  end
+
   def smartcontract
   end
 
