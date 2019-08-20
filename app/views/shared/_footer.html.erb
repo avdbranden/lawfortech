@@ -1,7 +1,12 @@
 <div class="container footer lined-middle-gray text-center">
   <div class="row">
-    <div class="col-md-3 col-xs-12 footer-copyright"> 
+    <div class="col-md-2 col-xs-12 footer-copyright"> 
         <h4>Contact via:</h4> 
+    </div>
+    <div class="col-md-1 col-xs-12 footer-copyright">
+       <%= link_to "mailto:adrien@lawfortech.io" do %>
+         <%= image_tag "email_icon.jpeg", size: "50",class: "img-rounded" %>
+       <% end %>   
     </div>
     <div class="col-md-1 col-xs-12 footer-copyright">
        <%= link_to "https://www.linkedin.com/in/adrienvandenbranden/", target: "_blank" do %>
